@@ -6,6 +6,11 @@
     margin-right: auto;
     background-color: var(--color-white1);
 }
+.sobre-img-tomate{
+    position: relative;
+    top: 10vh;
+    left: 85vw;
+}
 .sobre-img{
     /* background-color: red;  */
     width: 50%;
