@@ -1,0 +1,85 @@
+.mais-vendidas{
+    margin-top: 5rem;
+}
+
+.mais-vendidas h2{
+    font-size: 2rem;
+    font-weight:600;
+    text-align: center;
+    color: var(--color-black);
+}
+.pizzas{
+    width: 100%;
+    display: flex
+    
+}
+.pizza-opcao{
+    width: 25%;
+    margin: 2rem 2rem 0 2rem;
+    z-index: 77;
+}
+.pizza-img{
+    display: flex;
+    margin: 0 auto;
+    width:  10rem;
+    height: 10rem;
+}
+.pizza-top{
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.btn-love{
+    display: flex;
+    width: 2rem;
+    height: 2rem;
+    position: relative;
+    top: 50%;
+    background-color: var(--color-red)
+}
+.pizza-bg{
+    background-color: var(--color-white);
+    position: relative;
+    top: -5rem;
+    z-index: -1;
+    border-radius: 25px;
+    padding: 5rem 1rem 0 1rem;
+}
+.pizza-bg h2{
+    text-align: center;
+}
+.pizza-bg p{
+    text-align: center;
+    font-weight: 300;
+    font-size: 1rem;
+    font-family: 'Sora', sans-serif;
+    color: var(--color-gray)
+}
+.pizza-bg h1{
+    color: var(--color-black);
+    text-align: center;
+    font-weight: 600;
+    margin: 2rem 0;
+}
+.btn-comprar{
+    width: 80%;
+    background-color: var(--color-yellow);
+    border-radius: 25px;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    bottom: -1rem;
+    z-index: 1;
+}
+.btn-comprar:hover{
+    cursor: pointer;
+}
+.img-pepper{
+    position: relative;
+    right: 0;
+    width: 10rem;
+    height: 10rem;
+}

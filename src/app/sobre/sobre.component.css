@@ -1,0 +1,55 @@
+.sobre{
+    /* height: 50vh; */
+    display: flex;
+    /* padding: 5rem; */
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--color-white1);
+}
+.sobre-img{
+    /* background-color: red;  */
+    width: 50%;
+    height: 40rem;
+    margin: 5rem;
+    /* margin: auto; */
+    background-image: url("../../assets/images/bg-restaurant.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.sobre-text{
+    /* background-color: green; */
+    width: 50%;
+    padding-right: 5rem;
+    color: var(--color-black);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.sobre-text h2{
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+.sobre-text a:first-child {
+    color: var(--color-yellow);
+}
+.sobre-text a:nth-child(2) {
+    color: var(--color-red);
+}
+.sobre-text a:last-child {
+    color: var(--color-green);
+}
+.sobre-text-btn{
+    background-color: var(--color-yellow);
+    padding: .5rem 2.5rem;
+    border-radius: 25px;
+    margin-top: 2rem;
+}
+.sobre-text-btn:hover{
+    cursor: pointer;
+}

@@ -1,1 +1,43 @@
-/* You can add global styles to this file, and also import other style files */
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;800&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Sora', sans-serif;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+img{
+    pointer-events: none;
+}
+/* Cores globais */
+:root{
+    --color-red:   #CF3031;
+    --color-yellow:#FFA200;
+    --color-green: #5C913B;
+    --color-white: #FEF6F4;
+    --color-white1:#FCFCFC;
+    --color-black: #2E2E2E;   
+    --color-gray:  #616161;
+}
+/* Scroll Bar*/
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--color-white); 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-gray); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-black); 
+  }
